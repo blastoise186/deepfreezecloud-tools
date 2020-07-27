@@ -1,6 +1,6 @@
 REM DO NOT USE THIS YET!!!
 taskkill /f /im
-START OneDrive.exe %SystemRoot%\SysWOW64\OneDriveSetup.exe /uninstall
+CALL OneDrive.exe %SystemRoot%\SysWOW64\OneDriveSetup.exe /uninstall
 rd "%UserProfile%\OneDrive" /Q /S
 rd "%LocalAppData%\Microsoft\OneDrive" /Q /S
 rd "%ProgramData%\Microsoft OneDrive" /Q /S
