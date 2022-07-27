@@ -1,1 +1,1 @@
-net localgroup administrators cyberadmin /add
+net localgroup administrators username /add
